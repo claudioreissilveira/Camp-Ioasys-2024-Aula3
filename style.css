@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+}
+
+body {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 1) 45%,
+      rgba(70, 11, 11, 1) 100%
+    ),
+    no-repeat;
+}
+
+p {
+  margin-top: 10px;
+  color: rgb(190, 31, 31);
+  font-weight: bold;
+}
+
+span {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.card {
+  background-color: rgb(0, 0, 0);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 20px 29px 13px -1px rgba(0, 0, 0, 0.81);
+  -webkit-box-shadow: 20px 29px 13px -1px rgba(0, 0, 0, 0.81);
+  -moz-box-shadow: 20px 29px 13px -1px rgba(0, 0, 0, 0.81);
+  margin-left: 39%;
+  margin-top: 10%;
+  margin-right: 39%;
+}
+
+.main-img {
+  border-radius: 360px;
+  padding: 20px;
+}
+
+.main-name {
+  color: white;
+}
+
+.button {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ff0000;
+  background-color: rgb(31, 31, 31);
+  width: 70%;
+  height: 30px;
+  padding: 18px;
+  text-align: center;
+  border-radius: 7px;
+  margin-bottom: 25px;
+  font-weight: bold;
+  font-size: 14px;
+  transition: 0.2s ease-in-out 0s;
+}
+
+.button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  background: #fff;
+  color: #000;
+}
